@@ -3,7 +3,7 @@ class Solution {
         for(int i = 0; i<items.length; i++){
             for(int j = 0; j<items[i].length; j++){
                 if(items.get(i).get(j).equals(ruleKey) && items.get(i).get(j).equals(ruleValue)){
-                    items.add(i);
+                    items.add(i);// the approach was correct but not matched
                 }
             }
         }
